@@ -1,0 +1,52 @@
+2025-09-29 18:18:06,853 - db_manager - INFO - setup_logging:49 - Логирование инициализировано. Файл лога: c:\Users\vlastelin8\Desktop\trade\db manager astra\logs\db_manager_20250929_181806.log
+2025-09-29 18:18:06,887 - db_manager - INFO - <module>:59 - Успешно импортированы все диалоги
+2025-09-29 18:18:13,017 - db_manager - INFO - refresh_tables:274 - Начинаем обновление списка таблиц
+2025-09-29 18:18:13,018 - db_manager - DEBUG - refresh_tables:282 - Очищаем дерево таблиц
+2025-09-29 18:18:13,018 - db_manager - DEBUG - refresh_tables:288 - Выполняем запрос для получения списка таблиц
+2025-09-29 18:18:13,023 - db_manager - INFO - refresh_tables:291 - Найдено таблиц: 2
+2025-09-29 18:18:13,023 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: sqlite_sequence
+2025-09-29 18:18:13,023 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: test1
+2025-09-29 18:18:13,023 - db_manager - INFO - refresh_tables:297 - Обновление списка таблиц завершено успешно
+2025-09-29 18:18:37,365 - db_manager - INFO - create_table_dialog:367 - Открываем диалог создания новой таблицы
+2025-09-29 18:18:37,365 - db_manager - DEBUG - create_table_dialog:375 - Создаем экземпляр CreateTableDialog
+2025-09-29 18:18:37,365 - db_manager.dialogs - INFO - __init__:480 - Инициализируем CreateTableDialog
+2025-09-29 18:18:37,367 - db_manager.dialogs - DEBUG - __init__:491 - Диалог создан, вызываем setup_ui()
+2025-09-29 18:18:37,391 - db_manager.dialogs - INFO - __init__:493 - CreateTableDialog успешно инициализирован
+2025-09-29 18:18:37,392 - db_manager - DEBUG - create_table_dialog:377 - Результат диалога: False
+2025-09-29 18:18:37,392 - db_manager - INFO - create_table_dialog:389 - Пользователь отменил создание таблицы
+2025-09-29 18:18:44,646 - db_manager.dialogs - INFO - add_field:547 - Пользователь нажал 'Добавить поле'
+2025-09-29 18:18:44,646 - db_manager.dialogs - DEBUG - add_field:550 - Создаем FieldDialog
+2025-09-29 18:18:44,647 - db_manager.dialogs - INFO - __init__:717 - Инициализируем FieldDialog
+2025-09-29 18:18:44,649 - db_manager.dialogs - DEBUG - __init__:726 - FieldDialog окно создано успешно
+2025-09-29 18:18:44,674 - db_manager.dialogs - DEBUG - add_field:552 - FieldDialog завершен, результат: None
+2025-09-29 18:18:44,674 - db_manager.dialogs - INFO - add_field:578 - Пользователь отменил добавление поля
+2025-09-29 18:18:48,047 - db_manager.dialogs - INFO - ok_clicked:794 - Пользователь нажал OK в FieldDialog
+2025-09-29 18:18:48,048 - db_manager.dialogs - DEBUG - ok_clicked:798 - Имя поля: 'esdfgsfgsfg'
+2025-09-29 18:18:48,048 - db_manager.dialogs - DEBUG - ok_clicked:828 - Значения поля: type='TEXT', default=''
+2025-09-29 18:18:48,048 - db_manager.dialogs - DEBUG - ok_clicked:857 - Выбранный тип: 'TEXT'
+2025-09-29 18:18:48,048 - db_manager.dialogs - INFO - ok_clicked:862 - Создаем результат поля: name='esdfgsfgsfg', type='TEXT', null=True, default='', pk=False
+2025-09-29 18:18:48,048 - db_manager.dialogs - INFO - ok_clicked:872 - FieldDialog завершен успешно с результатом: ('esdfgsfgsfg', 'TEXT', True, '', False)
+2025-09-29 18:18:52,824 - db_manager.dialogs - INFO - add_field:547 - Пользователь нажал 'Добавить поле'
+2025-09-29 18:18:52,825 - db_manager.dialogs - DEBUG - add_field:550 - Создаем FieldDialog
+2025-09-29 18:18:52,825 - db_manager.dialogs - INFO - __init__:717 - Инициализируем FieldDialog
+2025-09-29 18:18:52,827 - db_manager.dialogs - DEBUG - __init__:726 - FieldDialog окно создано успешно
+2025-09-29 18:18:52,840 - db_manager.dialogs - DEBUG - add_field:552 - FieldDialog завершен, результат: None
+2025-09-29 18:18:52,840 - db_manager.dialogs - INFO - add_field:578 - Пользователь отменил добавление поля
+2025-09-29 18:19:02,518 - db_manager.dialogs - INFO - ok_clicked:794 - Пользователь нажал OK в FieldDialog
+2025-09-29 18:19:02,518 - db_manager.dialogs - DEBUG - ok_clicked:798 - Имя поля: 'sdvsfdvbdghsdgsedg'
+2025-09-29 18:19:02,518 - db_manager.dialogs - DEBUG - ok_clicked:828 - Значения поля: type='TEXT', default='adfsdvsdf'
+2025-09-29 18:19:02,518 - db_manager.dialogs - DEBUG - ok_clicked:857 - Выбранный тип: 'TEXT'
+2025-09-29 18:19:02,518 - db_manager.dialogs - INFO - ok_clicked:862 - Создаем результат поля: name='sdvsfdvbdghsdgsedg', type='TEXT', null=False, default='adfsdvsdf', pk=False
+2025-09-29 18:19:02,519 - db_manager.dialogs - INFO - ok_clicked:872 - FieldDialog завершен успешно с результатом: ('sdvsfdvbdghsdgsedg', 'TEXT', False, 'adfsdvsdf', False)
+2025-09-29 18:19:06,356 - db_manager.dialogs - INFO - create_table:592 - Пользователь нажал 'Создать таблицу'
+2025-09-29 18:19:06,356 - db_manager.dialogs - DEBUG - create_table:595 - Имя таблицы: 'test3'
+2025-09-29 18:19:06,356 - db_manager.dialogs - INFO - create_table:614 - Обрабатываем 1 полей
+2025-09-29 18:19:06,357 - db_manager.dialogs - DEBUG - create_table:620 - Поле 1: name='id', values=['INTEGER', 'NO', '', 'YES']
+2025-09-29 18:19:06,357 - db_manager.dialogs - DEBUG - create_table:628 - Распаковка значений: type='INTEGER', null='NO', default='', pk='YES'
+2025-09-29 18:19:06,357 - db_manager.dialogs - DEBUG - create_table:638 - Базовое определение поля: "id" INTEGER
+2025-09-29 18:19:06,357 - db_manager.dialogs - DEBUG - create_table:642 - Поле 'id' является первичным ключом
+2025-09-29 18:19:06,357 - db_manager.dialogs - DEBUG - create_table:647 - Добавлен AUTOINCREMENT для единственного INTEGER PK
+2025-09-29 18:19:06,357 - db_manager.dialogs - INFO - create_table:666 - Финальное определение поля: "id" INTEGER PRIMARY KEY AUTOINCREMENT
+2025-09-29 18:19:06,357 - db_manager.dialogs - INFO - create_table:668 - Всего полей обработано: 1
+2025-09-29 18:19:06,357 - db_manager.dialogs - INFO - create_table:683 - Сгенерированный SQL: CREATE TABLE "test3" ("id" INTEGER PRIMARY KEY AUTOINCREMENT)
+2025-09-29 18:19:12,933 - db_manager.dialogs - INFO - create_table:706 - Пользователь отменил создание таблицы

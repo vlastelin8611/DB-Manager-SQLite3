@@ -1,0 +1,90 @@
+2025-09-29 18:22:38,058 - db_manager - INFO - setup_logging:49 - Логирование инициализировано. Файл лога: c:\Users\vlastelin8\Desktop\trade\db manager astra\logs\db_manager_20250929_182238.log
+2025-09-29 18:22:38,072 - db_manager - INFO - <module>:59 - Успешно импортированы все диалоги
+2025-09-29 18:22:42,715 - db_manager - INFO - refresh_tables:274 - Начинаем обновление списка таблиц
+2025-09-29 18:22:42,715 - db_manager - DEBUG - refresh_tables:282 - Очищаем дерево таблиц
+2025-09-29 18:22:42,715 - db_manager - DEBUG - refresh_tables:288 - Выполняем запрос для получения списка таблиц
+2025-09-29 18:22:42,725 - db_manager - INFO - refresh_tables:291 - Найдено таблиц: 2
+2025-09-29 18:22:42,725 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: sqlite_sequence
+2025-09-29 18:22:42,726 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: test1
+2025-09-29 18:22:42,726 - db_manager - INFO - refresh_tables:297 - Обновление списка таблиц завершено успешно
+2025-09-29 18:22:43,634 - db_manager - INFO - create_table_dialog:367 - Открываем диалог создания новой таблицы
+2025-09-29 18:22:43,634 - db_manager - DEBUG - create_table_dialog:375 - Создаем экземпляр CreateTableDialog
+2025-09-29 18:22:43,634 - db_manager.dialogs - INFO - __init__:480 - Инициализируем CreateTableDialog
+2025-09-29 18:22:43,636 - db_manager.dialogs - DEBUG - __init__:491 - Диалог создан, вызываем setup_ui()
+2025-09-29 18:22:43,642 - db_manager.dialogs - INFO - __init__:493 - CreateTableDialog успешно инициализирован
+2025-09-29 18:22:43,642 - db_manager.dialogs - DEBUG - __init__:496 - Ждем закрытия CreateTableDialog
+2025-09-29 18:22:58,607 - db_manager.dialogs - INFO - add_field:552 - Пользователь нажал 'Добавить поле'
+2025-09-29 18:22:58,608 - db_manager.dialogs - DEBUG - add_field:555 - Создаем FieldDialog
+2025-09-29 18:22:58,608 - db_manager.dialogs - INFO - __init__:722 - Инициализируем FieldDialog
+2025-09-29 18:22:58,611 - db_manager.dialogs - DEBUG - __init__:731 - FieldDialog окно создано успешно
+2025-09-29 18:22:58,650 - db_manager.dialogs - DEBUG - __init__:741 - Ждем закрытия FieldDialog
+2025-09-29 18:23:01,357 - db_manager.dialogs - INFO - ok_clicked:810 - Пользователь нажал OK в FieldDialog
+2025-09-29 18:23:01,357 - db_manager.dialogs - DEBUG - ok_clicked:814 - Имя поля: 'adgdfdrytyt'
+2025-09-29 18:23:01,357 - db_manager.dialogs - DEBUG - ok_clicked:844 - Значения поля: type='TEXT', default=''
+2025-09-29 18:23:01,357 - db_manager.dialogs - DEBUG - ok_clicked:873 - Выбранный тип: 'TEXT'
+2025-09-29 18:23:01,357 - db_manager.dialogs - INFO - ok_clicked:878 - Создаем результат поля: name='adgdfdrytyt', type='TEXT', null=True, default='', pk=False
+2025-09-29 18:23:01,358 - db_manager.dialogs - INFO - ok_clicked:888 - FieldDialog завершен успешно с результатом: ('adgdfdrytyt', 'TEXT', True, '', False)
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - __init__:743 - FieldDialog закрыт, финальный результат: ('adgdfdrytyt', 'TEXT', True, '', False)
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - add_field:557 - FieldDialog завершен, результат: ('adgdfdrytyt', 'TEXT', True, '', False)
+2025-09-29 18:23:01,380 - db_manager.dialogs - INFO - add_field:561 - Добавляем поле: name='adgdfdrytyt', type='TEXT', null=True, default='', pk=False
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - add_field:566 - Преобразованные значения: null_text='YES', pk_text='NO'
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - add_field:569 - Значения для вставки в дерево: ('TEXT', 'YES', '', 'NO')
+2025-09-29 18:23:01,380 - db_manager.dialogs - INFO - add_field:572 - Поле 'adgdfdrytyt' успешно добавлено в дерево
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - add_field:576 - Количество полей в дереве после добавления: 2
+2025-09-29 18:23:01,380 - db_manager.dialogs - DEBUG - add_field:580 - Поле в дереве: text='id', values=['INTEGER', 'NO', '', 'YES']
+2025-09-29 18:23:01,381 - db_manager.dialogs - DEBUG - add_field:580 - Поле в дереве: text='adgdfdrytyt', values=['TEXT', 'YES', '', 'NO']
+2025-09-29 18:23:02,869 - db_manager.dialogs - INFO - create_table:597 - Пользователь нажал 'Создать таблицу'
+2025-09-29 18:23:02,869 - db_manager.dialogs - DEBUG - create_table:600 - Имя таблицы: 'test 3'
+2025-09-29 18:23:02,869 - db_manager.dialogs - WARNING - create_table:609 - Некорректное имя таблицы: 'test 3'
+2025-09-29 18:23:07,902 - db_manager.dialogs - INFO - create_table:597 - Пользователь нажал 'Создать таблицу'
+2025-09-29 18:23:07,902 - db_manager.dialogs - DEBUG - create_table:600 - Имя таблицы: 'test3'
+2025-09-29 18:23:07,902 - db_manager.dialogs - INFO - create_table:619 - Обрабатываем 2 полей
+2025-09-29 18:23:07,902 - db_manager.dialogs - DEBUG - create_table:625 - Поле 1: name='id', values=['INTEGER', 'NO', '', 'YES']
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:633 - Распаковка значений: type='INTEGER', null='NO', default='', pk='YES'
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:643 - Базовое определение поля: "id" INTEGER
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:647 - Поле 'id' является первичным ключом
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:652 - Добавлен AUTOINCREMENT для единственного INTEGER PK
+2025-09-29 18:23:07,903 - db_manager.dialogs - INFO - create_table:671 - Финальное определение поля: "id" INTEGER PRIMARY KEY AUTOINCREMENT
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:625 - Поле 2: name='adgdfdrytyt', values=['TEXT', 'YES', '', 'NO']
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:633 - Распаковка значений: type='TEXT', null='YES', default='', pk='NO'
+2025-09-29 18:23:07,903 - db_manager.dialogs - DEBUG - create_table:643 - Базовое определение поля: "adgdfdrytyt" TEXT
+2025-09-29 18:23:07,903 - db_manager.dialogs - INFO - create_table:671 - Финальное определение поля: "adgdfdrytyt" TEXT
+2025-09-29 18:23:07,903 - db_manager.dialogs - INFO - create_table:673 - Всего полей обработано: 2
+2025-09-29 18:23:07,903 - db_manager.dialogs - INFO - create_table:688 - Сгенерированный SQL: CREATE TABLE "test3" ("id" INTEGER PRIMARY KEY AUTOINCREMENT, "adgdfdrytyt" TEXT)
+2025-09-29 18:23:08,927 - db_manager.dialogs - INFO - create_table:693 - Пользователь подтвердил создание таблицы
+2025-09-29 18:23:08,935 - db_manager.dialogs - INFO - create_table:701 - Таблица 'test3' успешно создана
+2025-09-29 18:23:09,736 - db_manager.dialogs - DEBUG - __init__:498 - CreateTableDialog закрыт, результат: True
+2025-09-29 18:23:09,736 - db_manager - DEBUG - create_table_dialog:377 - Результат диалога: True
+2025-09-29 18:23:09,736 - db_manager - INFO - create_table_dialog:380 - Пользователь подтвердил создание таблицы
+2025-09-29 18:23:09,736 - db_manager - DEBUG - create_table_dialog:381 - Вызываем refresh_tables()
+2025-09-29 18:23:09,736 - db_manager - INFO - refresh_tables:274 - Начинаем обновление списка таблиц
+2025-09-29 18:23:09,737 - db_manager - DEBUG - refresh_tables:282 - Очищаем дерево таблиц
+2025-09-29 18:23:09,737 - db_manager - DEBUG - refresh_tables:288 - Выполняем запрос для получения списка таблиц
+2025-09-29 18:23:09,737 - db_manager - INFO - refresh_tables:291 - Найдено таблиц: 3
+2025-09-29 18:23:09,738 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: sqlite_sequence
+2025-09-29 18:23:09,738 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: test1
+2025-09-29 18:23:09,738 - db_manager - DEBUG - refresh_tables:294 - Добавляем таблицу в дерево: test3
+2025-09-29 18:23:09,738 - db_manager - INFO - refresh_tables:297 - Обновление списка таблиц завершено успешно
+2025-09-29 18:23:09,738 - db_manager - DEBUG - create_table_dialog:385 - Выполняем автоматическое резервное копирование
+2025-09-29 18:23:09,739 - db_manager - INFO - create_table_dialog:387 - Создание таблицы завершено успешно
+2025-09-29 18:23:10,538 - db_manager - INFO - load_table_data:314 - Начинаем загрузку данных таблицы: test3
+2025-09-29 18:23:10,538 - db_manager - DEBUG - load_table_data:322 - Очищаем текущие данные в дереве
+2025-09-29 18:23:10,538 - db_manager - DEBUG - load_table_data:328 - Получаем структуру таблицы: test3
+2025-09-29 18:23:10,539 - db_manager - DEBUG - load_table_data:331 - Структура таблицы test3: [(0, 'id', 'INTEGER', 0, None, 1), (1, 'adgdfdrytyt', 'TEXT', 0, None, 0)]
+2025-09-29 18:23:10,539 - db_manager - DEBUG - load_table_data:335 - Имена колонок: ['id', 'adgdfdrytyt']
+2025-09-29 18:23:10,540 - db_manager - DEBUG - load_table_data:340 - Настраиваем колонку: id
+2025-09-29 18:23:10,540 - db_manager - DEBUG - load_table_data:340 - Настраиваем колонку: adgdfdrytyt
+2025-09-29 18:23:10,540 - db_manager - DEBUG - load_table_data:345 - Выполняем запрос SELECT * FROM test3
+2025-09-29 18:23:10,540 - db_manager - INFO - load_table_data:348 - Получено 0 записей из таблицы test3
+2025-09-29 18:23:10,540 - db_manager - INFO - load_table_data:357 - Загрузка данных завершена успешно. Загружена таблица 'test3': 0 записей
+2025-09-29 18:23:25,164 - db_manager - INFO - load_table_data:314 - Начинаем загрузку данных таблицы: test3
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:322 - Очищаем текущие данные в дереве
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:328 - Получаем структуру таблицы: test3
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:331 - Структура таблицы test3: [(0, 'id', 'INTEGER', 0, None, 1), (1, 'adgdfdrytyt', 'TEXT', 0, None, 0)]
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:335 - Имена колонок: ['id', 'adgdfdrytyt']
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:340 - Настраиваем колонку: id
+2025-09-29 18:23:25,165 - db_manager - DEBUG - load_table_data:340 - Настраиваем колонку: adgdfdrytyt
+2025-09-29 18:23:25,166 - db_manager - DEBUG - load_table_data:345 - Выполняем запрос SELECT * FROM test3
+2025-09-29 18:23:25,166 - db_manager - INFO - load_table_data:348 - Получено 1 записей из таблицы test3
+2025-09-29 18:23:25,166 - db_manager - DEBUG - load_table_data:351 - Добавляем строку 1: (1, 'sfgdfgdfg1')
+2025-09-29 18:23:25,166 - db_manager - INFO - load_table_data:357 - Загрузка данных завершена успешно. Загружена таблица 'test3': 1 записей
